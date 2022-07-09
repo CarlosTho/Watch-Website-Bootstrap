@@ -1,0 +1,76 @@
+body {
+  background: rgb(255, 255, 255);
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+nav{
+    background-color: rgb(0, 0, 0);
+}
+.h-two h2{
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+}
+.h-two p{
+    line-height: 2;
+}
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#color-white{
+    color:white
+}
+#mainNavbar .nav-link{
+transition: background-color 100ms;
+}
+#mainNavbar .nav-link:hover{
+background-color: #a6a6a64a;
+}
+#mainNavbar .navbar-brand {
+color:white;
+font-size: 1.5rem;
+}
+.detail{
+    font-weight: 100;
+    font-size: 3rem;
+}
+#section-two{
+    margin-top: 120px;
+    background:white;
+}
+#detail-two{
+    margin: 25px 0;
+}
+.scroll{
+    background-color: rgb(56, 56, 56);
+    transition: background-color 500ms ease-in;
+    
+}
+.footer-bg{
+      background: linear-gradient(to bottom, rgb(35, 35, 35), rgba(0, 0, 0));
+
+
+  height: 400px;
+
+ /* use rgba for fine adjustments */
+
+}
+.footer-p{
+    color: white;
+}
+.fa-instagram{
+color: white;
+}
+.fa-instagram:hover{
+color: rgb(220, 185, 56);
+cursor: pointer;
+}
+.fa-facebook{
+    color:white;
+    transition: color 300ms ease-in;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: #486DB5;
+}
